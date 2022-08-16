@@ -1,0 +1,110 @@
+body {
+    background-color: #e0e8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display';
+    height: 100vh;
+    margin: 0px;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px 2px #1f2f5636;
+}
+
+.total {
+    max-width: 440px;
+    width: 100%;
+}
+
+.img-topo img {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 440px;
+}
+
+.sumario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    height: 15px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #1f2f56;
+    margin: 0px;
+}
+
+.texto {
+    text-align: center;
+    color: rgb(136, 136, 136);
+}
+
+
+.plano {
+    border-radius: 10px;
+    width: 90%;
+    background-color: #f5f7ff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.um {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tempo {
+    margin-bottom: 0px;
+}
+
+.preco {
+    margin-top: 0px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 15px;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.pagamento {
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+    background-color: #3829e0;
+    border: #fff;
+    color: #fff;
+    box-shadow: 5px 5px 5px 2px #1f2f5636;
+}
+
+.cancelar {
+    background-color: #fff;
+    border: #fff;
+    color: #5f5f5f;
+    cursor: pointer;
+}
+
+a {
+    cursor: pointer;
+}
